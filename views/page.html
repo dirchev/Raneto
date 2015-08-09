@@ -1,0 +1,13 @@
+<div class="container">
+  {{#meta.title}}<h1 class="title">{{meta.title}}</h1>{{/meta.title}}
+  <div class="panel panel-default">
+    <div class="panel-body">
+      {{{ content }}}
+    </div>
+    <div class="panel-footer clearfix">
+      <div class="pull-right">
+        Last updated on {{last_modified}}
+      </div>
+    </div>
+  </div>
+</div>
